@@ -1,0 +1,156 @@
+ .main-card-divs {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
+    margin-top: 2rem;
+    padding: 0 1rem;
+    overflow: hidden;
+
+  
+    
+}
+ 
+.all-divs{
+    background: #fff;
+    border-radius: 15px;
+    padding: 1rem;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    /* transition: transform 0.3s ease-in-out; */
+
+    
+  
+      
+    
+
+}
+.all-divs-card{
+  transform: translateX(200px);
+  will-change: transform, opacity;
+}
+.chipimg {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  border-radius: 15px;
+  background: rgba(246, 166, 62,.2);
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease-in-out;
+  padding: 1rem;
+}
+
+.chipimg:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+
+}
+
+.all-divs .div-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+  margin: 1rem 0;
+  position: relative;
+  overflow: hidden;
+}
+
+ .title::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: #ff6b6b;
+  transition: width 0.3s ease;
+}
+
+ title:hover::after {
+  width: 100%;
+}
+
+.text-muted {
+  display: flex;
+  gap: 1.5rem;
+  margin-top: 1rem;
+  justify-content: center;
+  align-items: center;
+  background: rgba(246, 166, 62,.2);
+}
+
+
+ svg {
+    vertical-align: middle;
+    font-size: 2rem;
+    transition: all 0.3s ease;
+}
+
+.icon {
+  font-size: 1.5rem;
+   
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+svg:hover {
+  color:red;
+  transform: translateY(-5px);
+}
+ .taitel{
+     margin-top: 10px;
+     
+ }
+ .dispreption{
+    margin-bottom: 20px;
+     
+ }
+/* Animation for card appearance */
+/* @keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.all-divs {
+  animation: fadeIn 0.8s ease-out;
+} */
+
+/* Responsive Design */
+@media (min-width: 768px) {
+  .main-card-divs {
+    grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+  }
+
+  .chipimg {
+    max-width: 400px;
+  }
+}
+
+@media (max-width: 767px) {
+  .all-divs {
+    text-align: center;
+  }
+  
+  .text-muted {
+    justify-content: center;
+  }
+}
+
+/* Optional: Dark mode support */
+@media (prefers-color-scheme: dark) {
+  .all-divs .div-title {
+    color: #fff;
+  }
+  
+  .icon {
+    color: #ddd;
+  }
+  
+  .icon:hover {
+    color: #ff6b6b;
+  }
+}

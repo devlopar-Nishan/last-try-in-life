@@ -1,0 +1,26 @@
+.main{
+    margin-top: 5.7rem;
+    height:500px;
+    resize:both;
+    object-fit: cover;
+    
+}
+img{
+    height: 100%;
+    width: 100%;
+    object-fit:cover;
+    
+   
+}
+ .carousel-indicators [data-bs-target]{
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    background-color: #ff6f00  !important;
+ }
+ .carousel-control-next-icon{
+    visibility: hidden;
+}
+ .carousel-control-prev-icon{
+    visibility: hidden;
+ }

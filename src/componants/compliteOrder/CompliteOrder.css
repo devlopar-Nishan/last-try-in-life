@@ -39,29 +39,29 @@
 
 @media (max-width: 480px) {
     .complite-order h1 {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
     
     .complite-order h5 {
-        font-size: 1rem;
+        font-size: 0.8rem;
     }
     
     .complite-order small {
-        font-size: 0.8rem;
+        font-size: 0.6rem;
     }
 }
 
 @media (max-width:325px) {
     .complite-order h1 {
-        font-size: 1rem;
+        font-size: 0.8rem;
     }
     
     .complite-order h5 {
-        font-size: .8rem;
+        font-size: 0.6rem;
     }
     
     .complite-order small {
-        font-size: 0.6rem;
+        font-size: 0.5rem;
     }
     
 }

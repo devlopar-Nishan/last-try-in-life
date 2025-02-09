@@ -17,13 +17,13 @@
 }
 
 .cart-item-wrapper {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content:space-between;
-     
-     
+    display: grid;
+    grid-template-columns: 1.5fr 2fr 2fr 1fr;
+    gap: 10px;
     align-items: center;
-    gap: 1rem;
+    background:  rgba(240, 248, 255,.6);
+    padding: 10px;
+    border-radius: 5px;
 }
 
 .cart-item-image {

@@ -31,7 +31,7 @@
     height: 30px;
     width: 30px;
     display: flex;
-    margin-top: 12px;
+    margin-top: 12px !important;
     
 }
  
@@ -44,7 +44,7 @@
     padding: 10px 10px;
     text-align: center;
     width: 140px;
-    justify-content: center;
+    justify-content: center !important;
 
 
      
@@ -82,7 +82,7 @@
 .heart{
     height: 30px;
     width: 30px;
-    margin-top: 12px;
+    margin-top: 12px !important;
 }
 .iswishlist{
 

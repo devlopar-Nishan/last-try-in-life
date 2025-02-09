@@ -31,24 +31,21 @@
     height: 30px;
     width: 30px;
     display: flex;
-    margin-top: 10px;
+    margin-top: 12px;
     
 }
  
 .profil-div{
-    display: flex;
-    
-    background-color:rgb(246, 166, 62) !important;
+       background-color: #f6a63e !important;
     border-radius: 60px;
-    height: 40px;
-    width: 140px;
-
-    margin-top: 13px;
-    all: unset;
-    padding: 5px 10px;
     border-radius: 50px;
+    display: flex;
+  
+    padding: 10px 10px;
     text-align: center;
-     justify-content: center;
+    width: 140px;
+    justify-content: center;
+
 
      
     
@@ -85,7 +82,7 @@
 .heart{
     height: 30px;
     width: 30px;
-    margin-top: 10px;
+    margin-top: 12px;
 }
 .iswishlist{
 

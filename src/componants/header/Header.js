@@ -217,7 +217,7 @@ const firebaseConfig = {
                  
                 
                <div style={{border:'none',textDecoration:'none'}}> 
-               <Link id='signin' style={{border:'none',textDecoration:'none',background:'none',all:'unset'} }  to='/authontcation/menu'> 
+               <Link id='signin' style={{border:'none',textDecoration:'none',background:'none'} }  to='/authontcation/menu'> 
                {props.singindata && props.singindata.email ?<button
                onClick={handlesignout}   className='profil-div  ' style={{border:'none',textDecoration:'none',color:'black'}}>sign up <img className='profil ' src={signinlogo} alt="" />
                </button>

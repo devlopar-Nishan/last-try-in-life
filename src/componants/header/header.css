@@ -173,3 +173,21 @@
     }
 
  }
+@media  (max-width:480px) {
+    .profil-div{
+            margin-top: 15px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 90%;
+     
+      
+
+
+    }
+    .heart {
+         
+        margin-left: 4px;
+    }
+    
+ }

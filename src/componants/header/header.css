@@ -36,14 +36,15 @@
 }
  
 .profil-div{
-       background-color: #f6a63e !important;
+    background-color: #f6a63e !important;
     border-radius: 60px;
     border-radius: 50px;
-    display: flex;
-  
-    padding: 10px 10px;
+    display: flex
+;
+   
+    margin-top: 6px;
+    padding: 5px 10px;
     text-align: center;
-    width: 140px;
     justify-content: center !important;
 
 
